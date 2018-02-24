@@ -2,11 +2,11 @@ import random
 num=random.randint(0,100)
 guesses=0
 print("Hi,what's your name?")
-name=input()
+name=raw_input()
 print ('Hi '+name+'!')
 while True:
     print('Guess a number between 0 and 100.')
-    guess=input()
+    guess=raw_input()
     guess=int(guess)
     guesses+=1
     if guess>num:
